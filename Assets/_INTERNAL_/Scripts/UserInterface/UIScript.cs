@@ -109,7 +109,6 @@ public class UIScript : MonoBehaviour
 	    if (!gameOver)
 	    {
 			gameOver = true;
-			winLabel.text = "Player " + ++playerNumber + " wins!";
 			statsPanel.SetActive(false);
 			winPanel.SetActive(true);
 		}
